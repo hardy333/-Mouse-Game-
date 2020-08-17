@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+body{
+    background:#444;
+}
+
+
+/* container and player */
+#cont{
+    display:inline-block;
+    margin-top:80px;
+    margin-left:150px;
+    width:500px;
+    height:450px;
+    
+    background:#f1c40f;
+    border-radius:20px;
+    position:relative;
+
+}
+#player{
+    width:50px;
+    height:50px;
+    background:#009432;
+    border-radius:100%;
+    position:absolute;
+    left:225px;
+    top:2px;
+    
+
+}
+/* container and player */
+
+
+
+
+
+/* h1 */
+#score{
+    display:inline-block;
+    color:yellow;
+    font-size:20px;
+    position:absolute;
+    left:150px;
+    transform: translate(0%,-150%);
+   
+}
+#timer{
+    display:inline-block;
+    color:yellow;
+    font-size:20px;
+    position:absolute;
+    top:0px;
+    left:245px;
+    transform:translate(0%, -150%);
+    
+}
+/* h1 */
+
+
+/* Start button */ 
+.button{
+    margin-right:0;
+    padding:10px 20px;
+    border-radius:20px;
+    outline: none;
+    border:0;
+    letter-spacing: 4px;
+    background-color:#0097e6;
+    font-weight:bold;
+    font-size:20px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform:translate(0,-110%);
+    cursor:pointer;
+    
+}
+.start{
+    margin-right:0;
+    padding:10px 20px;
+    border-radius:20px;
+    outline: none;
+    border:0;
+    letter-spacing: 4px;
+    background-color:#0097e6;
+    font-weight:bold;
+    font-size:20px;
+    position: absolute;
+    top:0;
+    left:0;
+    transform:translate(0,-110%);
+    
+    
+}
+.button:hover{
+    background:#1daaf7;
+    color:rgb(27, 26, 26);
+}
+/* start button */
+
+
+
+/* restart button */
+.button-1{
+    padding:10px 20px;
+    border-radius:20px;
+    outline: none;
+    border:0;
+    letter-spacing: 2px;
+    background-color:#0097e6;
+    font-weight:bold;
+    font-size:20px;
+    position: absolute;
+    top:0;
+    left:500;
+    transform:translate(65%,-110%);
+    cursor:pointer;
+}
+.restart{
+    padding:10px 20px;
+    border-radius:20px;
+    outline: none;
+    border:0;
+    letter-spacing: 2px;
+    background-color:#0097e6;
+    font-weight:bold;
+    font-size:20px;
+    position: absolute;
+    top:0;
+    left:500;
+    transform:translate(65%,-110%);
+    
+}
+.button-1:hover{
+    background:#1daaf7;
+    color:rgb(27, 26, 26);
+}
+
+/* restart button */ 
+
+
+
+/* liderboard form */
+.form{
+    margin-bottom:20px;
+}
+.form label{
+    display:block;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#333;
+    margin-bottom:5px;
+}
+.form input{
+    display:inline-block;
+    padding:10px 10px;
+    border-radius:20px;
+    margin-bottom:5px;
+    width:100%;
+    outline: none;
+    border:0px;
+    box-sizing: border-box;
+}
+.form input[type=submit]{
+   background:#333;
+   color:#0097e6;
+   font-size:20px;
+   letter-spacing:4px;
+   text-transform: uppercase;
+   cursor:pointer;
+}
+.form input[type=text]{
+    
+    color:#0097e6;
+    font-weight:bold;
+    text-transform: uppercase;
+  
+ }
+
+ .form input[type=submit]:hover{
+   background:#222;
+ }
+
+
+
+
+/* liderboard form */
+
+
+
+/* leader board */
+.leaderboard h1{
+    font-size:28px;
+    text-transform: uppercase;
+    color:#333;
+}
+.leaderboard{
+    display:inline-block;
+    background:red;
+    position:absolute;
+    top:81px;
+    margin-left:30px;
+    padding:20px;
+    background:#0097e6;
+    font-size:19px;
+    border-radius:20px;
+    color:#222;
+ 
+}
+
+.list{
+    list-style:none;
+}
+
+/* lider board */
